@@ -13,6 +13,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
         staticData
     },
+    //ISR - temporizador para o refresh do dado estatico (10segundos)
     revalidate: 10
   }
 }
